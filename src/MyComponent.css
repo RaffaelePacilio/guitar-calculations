@@ -1,0 +1,35 @@
+/* MyComponent.css */
+
+.keyboard-container {
+  display: flex;
+  flex-direction: column; /* Imposta la direzione di layout a colonna */
+}
+
+.keyboard {
+  display: flex;
+  justify-content: center;
+}
+
+.first-key,
+.first-fret,
+.other-key {
+  flex: 1;
+  text-align: center;
+  padding: 8px;
+  color: white;
+}
+
+.first-key {
+  background-color: rgba(128, 128, 128, 0.283); /* Grigio opaco al 60% */
+}
+
+.first-fret {
+  background-color: #efccb4; /* Colore legno */
+  border: 1px solid #ffae00; /* Bordo giallo */
+  box-shadow: -5px 0 0 #382600; /* Effetto di bordo senza creare un margine */
+}
+
+.other-key {
+  background-color: #efccb4; /* Colore legno */
+  border: 1px solid #ffae00; /* Bordo giallo */
+}
